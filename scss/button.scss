@@ -1,0 +1,30 @@
+@import "base";
+
+.button{
+    box-sizing: border-box;
+	user-select: none;
+	text-transform: none;
+	white-space: nowrap;
+	text-transform: uppercase;
+	text-decoration: none;
+	font: 700 16px/24px 'PT Sans', sans-serif;
+	outline: none;
+	color: $color-red;
+    text-transform: capitalize;
+	background-color: transparent;
+	border-radius: 21px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	padding: 8px 58px;
+	border: 1px solid $color-red;
+    &:hover{
+        color: white;
+        background-color: $color-red;
+    }
+    &:active{
+        transform: scale(1.1);
+        box-shadow: $color-border-form 0 0 0  3px,
+    }
+}

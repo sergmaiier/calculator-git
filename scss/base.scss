@@ -1,0 +1,28 @@
+$bg-fon-form: #f6f6f6;
+$color-text-form: #3d3d3d;
+$bg-toggle-no: #e0e0e0;
+$bg-toggle-yes: #7f7f7f;
+$color-border-form: #c5c5c5;
+
+$color-white: #ffffff;
+$color-red: #e60000;
+
+
+
+@mixin input-select{
+    width: 40%;
+    background-color: inherit;
+    font: 400 16px/16px 'PT Sans', sans-serif;
+    padding: 14px 0px;
+    outline: none;
+    cursor: pointer;
+}
+@mixin arrow-select{
+    -webkit-padding-start: 14px; // отступ слева в select
+    -webkit-appearance: button;
+    -webkit-user-select: none;
+    background-image: url(../images/arrow-select.png);
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
